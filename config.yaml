@@ -1,0 +1,12 @@
+credentials:
+  usernames:
+    CoreLogic:
+      email: test@gmail.com
+      name: John Smith
+      password: '$2b$12$D1RMk9krhc1XqQIgoFTPGOnQgdLf9gbtzAOf.zLdZXC39lpSa9XPy' # To be replaced with hashed password
+
+cookie:
+  expiry_days: 1
+  key: "test string" # Must be string
+  name: random_cookie_name
+preauthorized:
