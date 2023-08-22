@@ -1,13 +1,12 @@
-
-import yaml
-from yaml.loader import SafeLoader
-with open('./config.yaml') as file:
-    config = yaml.load(file, Loader=SafeLoader)
 import pandas as pd
 import streamlit as st
 #import plotly.graph_objects as go
 import folium
 from streamlit_folium import folium_static
+import yaml
+from yaml.loader import SafeLoader
+with open('./config.yaml') as file:
+    config = yaml.load(file, Loader=SafeLoader)
 
 #InsertDataFrame
 excel_file = "C:/Users/anpark/PycharmProjects/streamlit/Data/County_Data.xlsx"
